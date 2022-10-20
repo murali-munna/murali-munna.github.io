@@ -18,20 +18,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Murali's Musings
+title: murali-dandu
 email: murali.dandu94@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Murali is a full-stack Data Scientist working in the space of desigining and building ML and Data products, focusing on NLP, Search and Recommender Systems. 
   He's currently a graduate student at UCSD and working at Wayfair Search.
   Previously, he worked with Tredence, a hyper-growth DS firm, working with companies like Walmart, Home Depot, Gartner etc.
-  He plans to write about All.Things.Data.And.ML.
+  He plan to write about Applied Machine Learning and Data Science.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: munna_murali
 github_username:  murali-munna
 
 # Build settings
-theme: minima
+# Removed minima theme as it is now a regular theme.
+# theme: minima
 plugins:
   - jekyll-feed
 
