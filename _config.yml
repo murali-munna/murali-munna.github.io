@@ -21,14 +21,26 @@
 title: murali-dandu
 email: murali.dandu94@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Murali is a full-stack Data Scientist working in the space of desigining and building ML and Data products, focusing on NLP, Search and Recommender Systems. 
-  He's currently a graduate student at UCSD and working at Wayfair Search.
-  Previously, he worked with Tredence, a hyper-growth DS firm, working with companies like Walmart, Home Depot, Gartner etc.
-  He plan to write about Applied Machine Learning and Data Science.
+  Murali is a full-stack Data Scientist desigining and building ML and Data products, focusing on NLP, Search and Recommender Systems. 
+  He's a graduate student at UCSD, currently working at Wayfair Search and will be joining Walmart's Personalization.
+  He plans to write about Applied ML and DS.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: munna_murali
 github_username:  murali-munna
+
+
+# Fields minima uses, but are not defaulted with the jekyll command.
+# Author is the default for posts, the Atom feed, and is used in the footer.
+author: Murali M K Dandu
+linkedin_username: muralimohanakrishna
+
+# New fields not defaulted by jekyll-new with the minima theme
+# Add a copyright. A copyright symbol and year will be added automatically
+# copyright: Company Name, Inc.
+# Should add this in includes/footer.html
+copyright: ""
+
 
 # Build settings
 # Removed minima theme as it is now a regular theme.
