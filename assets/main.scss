@@ -1,5 +1,9 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+/* Override theme defaults */
+// $base-font-family: 'http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic';
 
+
+/* load _sass/minima.scss */
 @import "minima";
