@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Machine Learning and Data Science - A Complete Interview Preperation Guide!"
+title:  "Cracking the Machine Learning and Data Science Interview - A Complete Interview Preperation Guide!"
 date:   2022-10-22 00:00:01 -0700
 categories: machine learning
 ---
 
-After navigating the US Machine Learning and Data Science (MLDS) job market for a while, I wanted to share my journey, specific learning resources and tips to be better prepared and successful in these interviews. As the field is so dynamic at this point, the job titles, descriptions and interview processes can vary significantly. Nevertheless, the following guide is meant to be a holistic guide covering all aspects of the preparation.
+After navigating the US Machine Learning and Data Science (MLDS) job market for a while, I wanted to share my journey, specific learning resources and tips to be better prepared and successful in these interviews. As the field is so dynamic at this point, the job titles, descriptions and interview processes can vary significantly. Nevertheless, the following guide is meant to be holistic covering all aspects of the preparation.
 
  <h2>Table of Contents</h2>
 - [Introduction](#introduction)
@@ -31,9 +31,9 @@ Understanding the job role based on the company's profile and job description is
 *Disclaimer: This classification is typical to a technology product company and may change for other industries like consulting etc. In some mid-size and startup companies, there are lot of 'Jack of all trades' roles that have good mix of the above roles*
 
 Given these job roles, here are some pointers to keep in mind before reading the rest of the guide
-* My preparation and experience is specific to mostly the first job classification above although there is good amount of overlap with the other two interms of preparation
+* My preparation and experience is specific to mostly the first job classification above, although there is good amount of overlap with the other two interms of preparation
 * My experience is specific to the US job market which I believe is consistent with how global MLDS jobs and recruitment
-* My primary focus areas are NLP, Ranking and Discovery systems (Search, Recommenders, Ad-Tech etc.) hence there is a seperate section on them
+* My primary focus areas are NLP, Ranking and Discovery systems (Search, Recommenders, Ad-Tech etc.) hence there is a seperate section focusing on them
 
 Given the primer, let's jump right into it!
 
@@ -54,11 +54,11 @@ The importance of Data Structures and Algorithms (DS&A) in judging a candidate's
 Based on my interview experience, except for a few companies like TikTok, MLDS interviews focus on core and common DS&A. Honestly, I haven't solved a single problem on Trie or know the common bit-manipulation techniques. I would definitely recommend to prioritize in this order:
 * **High Priority:** Arrays/Strings and Hashing, Two Pointers, Sliding Window
 * **Medium Priroty:** Stack, Binary Search, 1-D/2D Dynamic Programming, Greedy, Intervals
-* **Low Priority:** Trees, Heap, Backtracking, Graphs
+* **Low Priority:** Trees, Heap, Graphs, Backtracking
 
 
 ## ML Coding
-Along with traditional DS&A coding, some companies (like Walmart, C3.ai etc) will ask you to live code common ML algorithms like linear regression etc. without the use of any external libraries. The idea is to test your foundational knowledge of common ML patterns like forward pass, using the right loss function, vectorized gradient descent, stopping criteria, and evaluation metrics. This will also provide them an opportunity to check your design skills (classes, function I/O, naming patterns, test cases etc.) which are actually more representative of the actual work you will be doing. I would recommend to practice coding the following to be best prepared for this round:
+Along with traditional DS&A coding, some companies (like Walmart, C3.ai etc) will ask you to live code common ML algorithms like linear regression etc. without the use of any external libraries. The idea is to test your foundational knowledge of common ML patterns like forward pass, using the right loss function, vectorized gradient descent, stopping criteria, and evaluation metrics. This will also provide them an opportunity to check your design skills (classes, function I/O, naming patterns, test cases etc.) which are actually more representative of the actual work you will be doing. I would recommend practicing coding the following to be best prepared for this round:
 * Linear Regression, Logistic Regression, K-Means Clustering
 * Code the above from scratch using only NumPy or Torch (without AutoGrad)
 * You should be able to accomodate interviewer requests on batch vs stochastic gradient descent, evaluating using R^2, RMSE, F1 Score etc.
@@ -272,7 +272,7 @@ Being prepared to answer what you did in your past projects is not enough. Most 
 
 
 ## Specialty - Modern NLP, Search, Recommender Systems
-
+This section is very specific to the kind of roles I mainly targeted for and interested to work on. 
 
 
 ## ML Case Study and Design
@@ -280,7 +280,15 @@ Being prepared to answer what you did in your past projects is not enough. Most 
 
 
 ## SQL
+None of my interviews had SQL/Databases questions, but certain DS/DE roles focusing on data pipelining roles require solid foundational knowledge of DB design as well as practical SQL querying. I have good experience in SQL before my Masters with tools such as Hive, TeraData and GCP BQ, so I have used the following resources to revise and practice these concepts.
 
-
+* [**SQL and DB Design by Ace the DS Interview:**](https://www.amazon.com/Ace-Data-Science-Interview-Questions/dp/0578973839/ref=sr_1_1?keywords=ace+the+data+science+interview&qid=1666492082&qu=eyJxc2MiOiIwLjk1IiwicXNhIjoiMC4zOCIsInFzcCI6IjAuMzAifQ%3D%3D&s=books&sprefix=ace+the+d%2Cstripbooks%2C242&sr=1-1) provides a good overview of database design and many practice problems.
+* [**DataLemur by Ace the DS Interview:**](https://datalemur.com/) For practicing SQL, this newly curated platform by the same team will provide 40+ questions (most of them are from the book) with explanations, tracking and discussion board. I did few SQL problems on LeetCode, but I found these questions to be better and more practical.
 
 ## Probability and Statistics
+Unless you are applying for ML research positions with a focus on statistical learning, questions on these topics are very rare. A graduate level course in Probability and Statistics would be the best way to be prepared for this round. If you haven't done such course or tight on time, you should definitely checkout the chapters in 'Ace the DS Interview' book which provides a very good overview along with practice questions.
+
+If you have come this far, I hope that this guide is useful in your MLDS preparation journey. I hope this serves as a one-stop guide and a mental template which eases your planning and preparation. 
+
+Feel free to provide thoughts and feedback based on your interview experiences. Please share the guide among your network so that others can be benefited from this.
+Wishing you all the very best for your MLDS interviews and beyond :)
